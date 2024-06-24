@@ -27,6 +27,10 @@ jobs:
           npx testmo automation:resources:add-link --name build \
             --url $RUN_URL --resources resources.json
 
+     # Check secrets are present
+     - run: echo $TESTMO_URL
+     - run: echo $TESTMO_TOKEN
+
       # Run automated tests and report results to Testmo
       - run: |
           npx testmo automation:run:submit \
