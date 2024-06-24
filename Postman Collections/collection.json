@@ -69,7 +69,7 @@
 										"value": "application/json"
 									}
 								],
-								"url": "{{url}}/spacecrafts/123"
+								"url": "https://c15dd5e4-37fc-4ed7-bf74-dd987bad0e90.mock.pstmn.io/spacecrafts/123"
 							},
 							"response": [
 								{
