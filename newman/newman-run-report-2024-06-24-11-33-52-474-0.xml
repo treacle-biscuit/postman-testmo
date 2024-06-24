@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Hawkeye Demo" tests="1" time="0.000">
+  <testsuite name="spacecrafts / {spacecraftId} / Read a spacecraft" id="22bbbbcb-c8fc-41f0-b433-f49d6b8b15bd" timestamp="2024-06-24T11:33:52.430Z" tests="5" failures="5" errors="1" time="0.000">
+    <system-err><![CDATA[Iteration: 0
+RequestError: Error: getaddrinfo ENOTFOUND {{url}}
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)
+
+---
+]]></system-err>
+    <testcase name="Response status code is 200" time="0.000" classname="HawkeyeDemo">
+      <failure type="AssertionFailure" message="expected PostmanResponse{ …(5) } to have property 'code'">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: e638e757-335e-44b2-b732-1859a092de35.]]>
+        <![CDATA[Collection name: Hawkeye Demo.]]>
+        <![CDATA[Request name: spacecrafts / {spacecraftId} / Read a spacecraft.]]>
+        <![CDATA[Test description: Response status code is 200.]]>
+        <![CDATA[Error message: expected PostmanResponse{ …(5) } to have property 'code'.]]>
+        <![CDATA[Stacktrace: AssertionError: expected PostmanResponse{ …(5) } to have property 'code'
+   at Object.eval sandbox-script.js:1:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response has the required fields - id, name, type, and description" time="0.000" classname="HawkeyeDemo">
+      <failure type="AssertionFailure" message="&quot;undefined&quot; is not valid JSON">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: e638e757-335e-44b2-b732-1859a092de35.]]>
+        <![CDATA[Collection name: Hawkeye Demo.]]>
+        <![CDATA[Request name: spacecrafts / {spacecraftId} / Read a spacecraft.]]>
+        <![CDATA[Test description: Response has the required fields - id, name, type, and description.]]>
+        <![CDATA[Error message: "undefined" is not valid JSON.]]>
+        <![CDATA[Stacktrace: JSONError: "undefined" is not valid JSON
+   at Object.eval sandbox-script.js:2:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Id is a non-empty string" time="0.000" classname="HawkeyeDemo">
+      <failure type="AssertionFailure" message="&quot;undefined&quot; is not valid JSON">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: e638e757-335e-44b2-b732-1859a092de35.]]>
+        <![CDATA[Collection name: Hawkeye Demo.]]>
+        <![CDATA[Request name: spacecrafts / {spacecraftId} / Read a spacecraft.]]>
+        <![CDATA[Test description: Id is a non-empty string.]]>
+        <![CDATA[Error message: "undefined" is not valid JSON.]]>
+        <![CDATA[Stacktrace: JSONError: "undefined" is not valid JSON
+   at Object.eval sandbox-script.js:3:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Type is a non-empty string" time="0.000" classname="HawkeyeDemo">
+      <failure type="AssertionFailure" message="&quot;undefined&quot; is not valid JSON">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: e638e757-335e-44b2-b732-1859a092de35.]]>
+        <![CDATA[Collection name: Hawkeye Demo.]]>
+        <![CDATA[Request name: spacecrafts / {spacecraftId} / Read a spacecraft.]]>
+        <![CDATA[Test description: Type is a non-empty string.]]>
+        <![CDATA[Error message: "undefined" is not valid JSON.]]>
+        <![CDATA[Stacktrace: JSONError: "undefined" is not valid JSON
+   at Object.eval sandbox-script.js:4:1).]]>
+      </failure>
+    </testcase>
+    <testcase name="Response time is less than 1000ms" time="0.000" classname="HawkeyeDemo">
+      <failure type="AssertionFailure" message="expected undefined to be a number or a date">
+        <![CDATA[Failed 1 times.]]>
+        <![CDATA[Collection JSON ID: e638e757-335e-44b2-b732-1859a092de35.]]>
+        <![CDATA[Collection name: Hawkeye Demo.]]>
+        <![CDATA[Request name: spacecrafts / {spacecraftId} / Read a spacecraft.]]>
+        <![CDATA[Test description: Response time is less than 1000ms.]]>
+        <![CDATA[Error message: expected undefined to be a number or a date.]]>
+        <![CDATA[Stacktrace: AssertionError: expected undefined to be a number or a date
+   at Object.eval sandbox-script.js:5:1).]]>
+      </failure>
+    </testcase>
+  </testsuite>
+</testsuites>
