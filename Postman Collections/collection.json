@@ -67,6 +67,11 @@
 									{
 										"key": "Accept",
 										"value": "application/json"
+									},
+									{
+										"key": "x-correlation-id",
+										"value": "123",
+										"type": "text"
 									}
 								],
 								"url": "https://c15dd5e4-37fc-4ed7-bf74-dd987bad0e90.mock.pstmn.io/spacecrafts/123"
