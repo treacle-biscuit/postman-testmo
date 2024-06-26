@@ -13,6 +13,11 @@
 					"name": "{spacecraftId}",
 					"item": [
 						{
+							"name": "critical tests",
+							"item": [],
+							"id": "1392bde8-5f29-4ae3-a9e0-70c3c4957833"
+						},
+						{
 							"name": "Read a spacecraft",
 							"event": [
 								{
@@ -100,7 +105,7 @@
 									},
 									{
 										"key": "x-correlation-id",
-										"value": "123",
+										"value": "456",
 										"type": "text"
 									}
 								],
