@@ -13,11 +13,6 @@
 					"name": "{spacecraftId}",
 					"item": [
 						{
-							"name": "critical tests",
-							"item": [],
-							"id": "1392bde8-5f29-4ae3-a9e0-70c3c4957833"
-						},
-						{
 							"name": "Read a spacecraft",
 							"event": [
 								{
@@ -109,7 +104,8 @@
 										"type": "text"
 									}
 								],
-								"url": "https://c15dd5e4-37fc-4ed7-bf74-dd987bad0e90.mock.pstmn.io/spacecrafts/123"
+								"url": "https://c15dd5e4-37fc-4ed7-bf74-dd987bad0e90.mock.pstmn.io/spacecrafts/123",
+								"description": "\n# Hent detaljer om et rumfartøj\n\nDette endpoint udfører en GET-forespørgsel for at hente detaljer om et specifikt rumfartøj identificeret ved dets ID.\n\n### Anmodningsparametre\nN/A\n\n### Svarlegeme\n- `id`: Rumfartøjets ID (streng)\n- `name`: Rumfartøjets navn (streng)\n- `type`: Rumfartøjets type (streng)\n- `description`: Beskrivelse af rumfartøjet (streng)\n"
 							},
 							"response": [
 								{
